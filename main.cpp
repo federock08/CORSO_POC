@@ -5,6 +5,13 @@ using namespace std;
 // Questo codice è a scopo ditadittico, potrebbe non funzionare
 // Programma per Informatica
 int main() {
+	int a = 0;
+	cin >> a;
+	if (a > 10) {
+		return a;
+	} else {
+		return -1;
+	}
 	cout << menu << endl;
 }
 
